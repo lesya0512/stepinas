@@ -31,7 +31,9 @@ function App() {
   return (
     <BrowserRouter>
 
-      <Header data={data}/>
+      <Header />
+
+      <Catalog data={data}/>
 
       <Routes>
         <Route path='/catalog' Component={Catalog} />
