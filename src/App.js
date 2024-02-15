@@ -33,13 +33,13 @@ function App() {
 
       <Header />
 
-      <Catalog data={data}/>
+      
 
       <Routes>
-        <Route path='/catalog' Component={Catalog} />
+        <Route path='/catalog' element={<Catalog data={data} />} />
       </Routes>
-
       <Footer />
+
     
     </BrowserRouter>
   );
