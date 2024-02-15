@@ -31,15 +31,13 @@ function App() {
   return (
     <BrowserRouter>
 
-      <Header />
-
-      
+      <Header />      
 
       <Routes>
         <Route path='/catalog' element={<Catalog data={data} />} />
       </Routes>
-      <Footer />
 
+      <Footer />
     
     </BrowserRouter>
   );

@@ -27,7 +27,7 @@ function Header() {
 
                 <div className="right">
                     <button><NavLink to={'/catalog'}>Каталог</NavLink></button>
-                    <button><NavLink to={'/catalog'}>Войти</NavLink></button>
+                    <button><NavLink to={'/'}>Войти</NavLink></button>
                 </div>
             </div>
         </header>
